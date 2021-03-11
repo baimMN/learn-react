@@ -1,0 +1,22 @@
+{
+  "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+  "plugins": ["jsx-a11y"],
+  "rules": {
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "no-var": ["error"],
+    "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
+    "require-await": ["error"],
+    "react/prop-types": 0,
+    "jsx-quotes": 0,
+    "indent": ["error", 2],
+    "prefer-const": 0,
+    "operator-linebreak": 0,
+    "camelcase": ["warn", { "ignoreDestructuring": true }],
+    "react/jsx-handler-names": 0
+  },
+  "globals": {
+    "FormData": true,
+    "REACT_APP*": true
+  }
+}

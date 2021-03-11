@@ -1,0 +1,316 @@
+
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+  // scroll-behavior: smooth;
+}
+a {
+  color: white;
+}
+.canvas {
+  // border:10px solid green;
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0px;
+  background-size: contain;
+  background: rgb(225,61,126);
+  background: linear-gradient(180deg, rgba(225,61,126,1) 0%, rgba(225,61,126,0.16710434173669464) 45%, rgba(225,61,126,1) 130%);
+}
+.font-top-header {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  margin-left: 4rem;
+  color: white
+}
+.font-tentang-kami {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 3rem;
+  padding-left: 4rem;
+  color: black
+}
+.font-banner {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  text-shadow: -1px -1px 0 rgba(225,61,126,1), 1px -1px 0 rgba(225,61,126,1), -1px 1px 0 rgba(225,61,126,1), 1px 1px 0 rgba(225,61,126,1);
+  // word-spacing: 0rem;
+  // border: 1px solid brown;
+  color: white
+}
+.tentang-kami-container {
+  // font-family: 'Sacramento', cursive;
+  // font-size: 4rem;
+  // border: 1px solid brown;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-self: center;
+  // background-color: transparent;
+  // color: white
+}
+.image-cover {
+  background-color: red;
+}
+.top-header {
+  background-image: url(./assets/bg-header.png);
+  background-size: contain;
+  height: 19vh;
+  width: 100vw;
+  // margin-top: 300px;
+  // background-position: center;
+  // object-fit: cover;
+  // border: 2px solid green;
+}
+.bg-tentang-kami {
+  background-image: url(./assets/bg-tentang-kami.png);
+  background-size: contain;
+  height: 25vh;
+  width: 25vh;
+  left: 5%;
+  z-index: -1;
+  // top: 30%;
+  opacity: 0.5;
+  font-size: smaller;
+  position: absolute;
+  // top: -2rem;
+  // border: 2px solid green;
+}
+.bg-2 {
+  background-image: url(./assets/bg-2.png);
+  background-size: contain;
+  height: 25vh;
+  width: 25vh;
+  right: -4%;
+  margin-top: 18rem;
+  font-size: smaller;
+  position: absolute;
+}
+.container-header {
+  // border: 2px solid blue;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100vh;
+}
+.image-content {
+  width: 30vw;
+  height: 60vh;
+  // border: 1px solid blue;
+  /* min-height: 100%; */
+}
+.image-cooking-chef {
+  width: 40vw;
+  height: 40vh;
+  // border: 1px solid blue;
+  /* min-height: 100%; */
+}
+.image-order-now {
+  width: 40vw;
+  height: 40vh;
+  // border: 1px solid blue;
+  /* min-height: 100%; */
+}
+.image-content-2 {
+  width: 20vw;
+  height: 20vh;
+  // border: 1px solid yellow;
+  /* min-height: 100%; */
+}
+.main-footer {
+  background-color: #3f3d56;
+  // position: fixed;
+  // z-index: 3;
+  // bottom: 0px;
+  color: white;
+  // border: 1px solid red;
+  padding-top: 10px;
+  margin-top: 200px;
+  height: 20vh;
+  // background-size: contain;
+}
+.content-tentang-kami {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-left: 6rem;
+  color: black
+}
+.container-image-gallery {
+  // border: 2px solid green;
+  // margin-top: 200px;
+  margin-bottom: 150px;
+  align-self: center;
+  height: 80vh;
+  // top:100px;
+    // background-position: center;
+  // object-fit: fill;
+  padding-top: 450px;
+  overflow: scroll;
+}
+.container-image-gallery-text {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+// FRAMING
+
+
+
+// END OF FRAMIN
+
+
+
+
+/// Card Hover styling
+html,body {
+  // font-family: 'Roboto', sans-serif;
+  height: 100%; 
+  margin: 0px; 
+  padding: 0px; 
+  // background-color: #2f3238;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  // margin-top: 20px;
+}
+.image-hover-config {
+  width: 30vw;
+  // border: 3px solid red;
+}
+.image-loading-config {
+  width: 30vw;
+  height: 30vw;
+  // border: 3px solid red;
+}
+.link {
+  color: red;
+}
+.container {
+  display: table;
+  // margin-left: 100px;
+  // margin-top: 80px;
+  cursor: pointer;
+}
+.subcontainer {
+  position: relative;
+  background-color: #2f3238;
+  overflow:hidden;
+}
+.containerImage {
+  position: relative;
+  background-color: #17819c;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+}
+.subtitleText {
+  position: relative;
+  left: -50%;
+  padding-top: 25px;
+  // border: 3px solid white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.img {
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+// SMPE SINI CARD HOVER STYLE
+
+
+
+
+// MASONRY
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  // margin-left: -10px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 7px; /* gutter size */
+  background-clip: padding-box;
+}
+ 
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  // background: grey;
+  margin-bottom: 7px;
+}
+
+.footer-container {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+// RESPONSIVE STYLE
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+  .image-content {
+    width: 50vw;
+    height: 30vh;
+    margin-top: 20vh;
+    // border: 1px solid blue;
+    /* min-height: 100%; */
+  }
+  .image-content-2 {
+    width: 30vw;
+    height: 30vh;
+    margin-top: 10vh;
+    margin-left: 2px;
+    // border: 1px solid blue;
+    /* min-height: 100%; */
+  }
+  .top-header {
+    height: 15vh;
+    width: 100vw;
+    background-size: cover;
+    // background-position: center;
+    background-repeat: repeat-x;
+    // left: 0px;
+    // position: absolute;
+  }
+  .font-top-header {
+    padding-top: 5px;
+    font-size: 3.1rem;
+    margin-left: 2rem;
+  }
+  .font-banner {
+    font-size: 3.5rem;
+    line-height: 3rem;
+  }
+  .container-header {
+    // overflow-x: hidden;
+    height: 85vh;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

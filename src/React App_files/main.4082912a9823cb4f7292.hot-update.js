@@ -1,0 +1,38 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/App.scss":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/App.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_bg_header_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/bg-header.png */ "./src/assets/bg-header.png");
+/* harmony import */ var _1876_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./1876.jpg */ "./src/1876.jpg");
+/* harmony import */ var _2654166_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./2654166.jpg */ "./src/2654166.jpg");
+// Imports
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_bg_header_png__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_1876_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_2654166_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "html {\n  font-size: 14px; }\n\n.font-top-header {\n  font-family: 'Sacramento', cursive;\n  font-size: 3rem; }\n\n.top-header {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n  height: 21vh;\n  background: #e13d7e;\n  background: linear-gradient(0deg, #e13d7e 0%, rgba(85, 23, 23, 0.570466) 100%);\n  border: 2px solid green; }\n\n.my-masonry-grid {\n  /* Not needed if autoprefixing */\n  /* Not needed if autoprefixing */\n  display: flex;\n  margin-left: 5px;\n  /* gutter size offset */\n  width: auto; }\n\n.my-masonry-grid_column {\n  padding-left: 5px;\n  /* gutter size */\n  background-clip: padding-box; }\n\n/* Style your items */\n.my-masonry-grid_column > div {\n  /* change div to reference your elements you put in <Masonry> */\n  background: grey;\n  margin-bottom: 5px; }\n\n.image-content {\n  width: 100vw;\n  height: 60vh;\n  /* border: 2px solid green; */\n  position: absolute;\n  top: 0px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  background-position: center;\n  filter: brightness(0.5);\n  background-repeat: no-repeat;\n  z-index: -1;\n  /* min-height: 100%; */ }\n\n@media only screen and (max-width: 600px) {\n  .image-content {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    height: 50vh;\n    background-size: auto 100%; }\n  .container-header {\n    margin-top: -5vh;\n    /* font-size: 30px; */\n    /* font-size: 15px; */ }\n  .font-header {\n    font-family: 'Sacramento', cursive; } }\n\n.main-content {\n  background-color: #0e0731;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  z-index: -2; }\n", "",{"version":3,"sources":["webpack://src/App.scss"],"names":[],"mappings":"AACA;EACE,eAAe,EAAA;;AAEjB;EACE,kCAAkC;EAClC,eAAe,EAAA;;AAEjB;EACE,yDAA6C;EAC7C,wBAAwB;EACxB,YAAY;EACZ,mBAA2B;EAC3B,8EAAgG;EAEhG,uBAAuB,EAAA;;AA2BzB;EACwB,gCAAA;EACA,gCAAA;EACtB,aAAa;EACb,gBAAgB;EAAE,uBAAA;EAClB,WAAW,EAAA;;AAEb;EACE,iBAAiB;EAAE,gBAAA;EACnB,4BAA4B,EAAA;;AAG9B,qBAAA;AACA;EAAgC,+DAAA;EAC9B,gBAAgB;EAChB,kBAAkB,EAAA;;AAEpB;EACE,YAAY;EACZ,YAAY;EACZ,6BAAA;EACA,kBAAkB;EAClB,QAAQ;EACR,yDAAmC;EACnC,qBAAqB;EACrB,2BAA2B;EAC3B,uBAAuB;EACvB,4BAA4B;EAC5B,WAAW;EACX,sBAAA,EAAuB;;AAGzB;EACE;IACE,yDAAsC;IACtC,YAAY;IACZ,0BAA0B,EAAA;EAE5B;IACE,gBAAgB;IAChB,qBAAA;IACA,qBAAA,EAAsB;EAExB;IACE,kCAAkC,EAAA,EACnC;;AAGH;EACE,yBAAyB;EACzB,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,WAAW,EAAA","sourcesContent":["\nhtml {\n  font-size: 14px;\n}\n.font-top-header {\n  font-family: 'Sacramento', cursive;\n  font-size: 3rem;\n}\n.top-header {\n  background-image: url(./assets/bg-header.png);\n  background-size: contain;\n  height: 21vh;\n  background: rgb(225,61,126);\n  background: linear-gradient(0deg, rgba(225,61,126,1) 0%, rgba(85,23,23,0.5704656862745099) 100%);\n  // back\n  border: 2px solid green;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.my-masonry-grid {\n  display: -webkit-box; /* Not needed if autoprefixing */\n  display: -ms-flexbox; /* Not needed if autoprefixing */\n  display: flex;\n  margin-left: 5px; /* gutter size offset */\n  width: auto;\n}\n.my-masonry-grid_column {\n  padding-left: 5px; /* gutter size */\n  background-clip: padding-box;\n}\n \n/* Style your items */\n.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */\n  background: grey;\n  margin-bottom: 5px;\n}\n.image-content {\n  width: 100vw;\n  height: 60vh;\n  /* border: 2px solid green; */\n  position: absolute;\n  top: 0px;\n  background-image: url('./1876.jpg');\n  background-size: 100%;\n  background-position: center;\n  filter: brightness(0.5);\n  background-repeat: no-repeat;\n  z-index: -1;\n  /* min-height: 100%; */\n}\n\n@media only screen and (max-width: 600px) {\n  .image-content {\n    background-image: url('./2654166.jpg');\n    height: 50vh;\n    background-size: auto 100%;\n  }\n  .container-header {\n    margin-top: -5vh;\n    /* font-size: 30px; */\n    /* font-size: 15px; */\n  }\n  .font-header {\n    font-family: 'Sacramento', cursive;\n  }\n}\n\n.main-content {\n  background-color: #0e0731;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  z-index: -2;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.4082912a9823cb4f7292.hot-update.js.map
