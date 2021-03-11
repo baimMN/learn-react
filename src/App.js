@@ -103,7 +103,7 @@ export default function App() {
       <Grid container className='container-header' justify='center'  alignContent='flex-start'>
         <Grid item md={5} sm={12} className='font-banner'>
           {/* <div>Kue Kering dan basah home-made dengan kualitas tinggi</div> */}
-          <div style={{textAlign: 'start'}}>Your content goes here Your content goes here Your content goes here</div>
+          <div style={{textAlign: 'start'}}>Your content goes shere Your content goes here Your content goes here</div>
         </Grid>
         {/* <Grid style={{ height: '100%' }} item></Grid> */}
         <Grid item md={4} sm={6}>
